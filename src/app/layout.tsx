@@ -15,7 +15,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
     <html lang="en">
       <body className={inter.className}>
         <header className="mb-10 w-full p-5 px-10">
-          <nav>
+          {/* <nav>
             <ul className="flex flex-row justify-start gap-5">
               <li className="underline">
                 <Link href="/">Home</Link>
@@ -27,7 +27,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
                 <Link href="/starwars">Starwars characters</Link>
               </li>
             </ul>
-          </nav>
+          </nav> */}
         </header>
         <main className="container px-10">{children}</main>
       </body>
